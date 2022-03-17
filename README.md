@@ -1,10 +1,22 @@
 ![npm](https://img.shields.io/npm/v/react-native?color=%232fa90f&label=react-native&style=plastic)
-![npm](https://img.shields.io/npm/dm/react-native-recaptcha?style=plastic)
-![npm](https://img.shields.io/npm/dt/react-native-recaptcha?style=plastic)
+![npm](https://img.shields.io/npm/dm/@cnilton/react-native-recaptcha?style=plastic)
+![npm](https://img.shields.io/npm/dt/@cnilton/react-native-recaptcha?style=plastic)
 
 # About
 
 This is a React-Native Recaptcha component that is customizable. Currently only recaptcha v2 is available.
+
+# Installation
+
+```bash
+npm i @cbarroso/react_native_recaptcha
+```
+
+or
+
+```bash
+yarn add @cbarroso/react_native_recaptcha
+```
 
 ## ⚠ Important
 

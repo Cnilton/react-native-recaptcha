@@ -1,5 +1,5 @@
 {
-  "name": "react_native_recaptcha",
+  "name": "@cnilton/react-native-recaptcha",
   "version": "1.0.0",
   "author": "Caio Nilton <cnilton>",
   "main": "index.js",
