@@ -1,6 +1,6 @@
 ![npm](https://img.shields.io/npm/v/react-native?color=%232fa90f&label=react-native&style=plastic)
-![npm](https://img.shields.io/npm/dm/@cnilton/react-native-recaptcha?style=plastic)
-![npm](https://img.shields.io/npm/dt/@cnilton/react-native-recaptcha?style=plastic)
+![npm](https://img.shields.io/npm/dm/@cbarroso/react-native-recaptcha?style=plastic)
+![npm](https://img.shields.io/npm/dt/@cbarroso/react-native-recaptcha?style=plastic)
 
 # About
 
@@ -9,13 +9,13 @@ This is a React-Native Recaptcha component that is customizable. Currently only 
 # Installation
 
 ```bash
-npm i @cbarroso/react_native_recaptcha
+npm i @cbarroso/react-native-recaptcha
 ```
 
 or
 
 ```bash
-yarn add @cbarroso/react_native_recaptcha
+yarn add @cbarroso/react-native-recaptcha
 ```
 
 ## ⚠ Important
