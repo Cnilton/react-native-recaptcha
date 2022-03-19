@@ -60,3 +60,4 @@ buck-out/
 /ios/Pods/
 
 /App.tsx
+packageTest.json

@@ -4,7 +4,7 @@
 
 # About
 
-This is a React-Native Recaptcha component that is customizable. Currently only recaptcha v2 is available.
+This is a React-Native Recaptcha component that is customizable;
 
 # Installation
 
@@ -32,6 +32,25 @@ or
 yarn add react-native-webview
 ```
 
+```javascript
+interface RecaptchaProps {
+  /** Recaptcha site key */
+  siteKey: string;
+  /** Site url which contains recaptcha */
+  baseUrl: string;
+  /** Default language shown within recaptcha. en-US | pt-BR | ... */
+  languageCode?: string;
+  /** Callback for recaptcha error or success */
+  onMessage: (event: string) => void;
+  /** Set your custom cancel button text */
+  cancelButtonText?: string;
+  /** Callback for pressing the cancel button */
+  onCancel: () => void;
+  /** Recaptcha version */
+  recaptchaVersion?: 'v2' | 'v3';
+}
+```
+
 # Usage
 
 ```javascript
@@ -48,6 +67,10 @@ export default function App() {
   const [showCaptcha, setShowCaptcha] = useState(false);
 
   const captchaRef = useRef < CaptchaRefProps > null;
+
+  const onCancel = () => {
+    setShowCaptcha(false);
+  };
 
   const onMessage = (event: string) => {
     if (event !== 'expired' && event !== 'error') {
@@ -77,6 +100,7 @@ export default function App() {
       {showCaptcha && (
         <Recaptcha
           ref={captchaRef}
+          recaptchaVersion="v2" // 'v3'
           onCancel={onCancel}
           siteKey={SITE_KEY}
           baseUrl={YOUR_URL}

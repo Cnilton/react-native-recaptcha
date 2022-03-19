@@ -1,6 +1,6 @@
 {
   "name": "@cbarroso/react-native-recaptcha",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Caio Nilton <cnilton>",
   "main": "index.js",
   "private": false,
@@ -14,6 +14,9 @@
     "component",
     "captcha",
     "recaptcha-v2",
+    "recaptcha-v3",
+    "v2",
+    "v3",
     "react-native-recaptcha"
   ],
   "scripts": {
@@ -25,7 +28,8 @@
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.67.3"
+    "react-native": "0.67.3",
+    "react-native-webview": "^11.17.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
