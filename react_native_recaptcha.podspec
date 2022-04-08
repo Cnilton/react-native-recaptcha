@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platforms    = { :ios => "9.0", :osx => "10.13" }
 
-  s.source       = { :git => "https://github.com/cnilton/react_native_recaptcha.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/Cnilton/react-native-recaptcha.git", :tag => "v#{s.version}" }
   s.source_files  = "apple/**/*.{h,m}"
 
   s.dependency 'React-Core'
